@@ -1,0 +1,30 @@
+========================================================================
+ World Coastline (1:10 million)
+------------------------------------------------------------------------
+ https://koordinates.com/layer/1298-world-coastline-110-million/
+========================================================================
+From: Natural Earth
+
+Description:
+  World coastline intended for use at 1:10 million scales.
+  
+  Made with Natural Earth. Free vector and raster map data @
+  [naturalearthdata.com](http://naturalearthdata.com).
+
+Category: Boundaries & Administration
+
+Projection: WGS 84
+
+------------------------------------------------------------------------
+ Processing steps applied by Koordinates
+------------------------------------------------------------------------
+
+- imported to Koordinates in Shapefile format on 25 Sep 2011
+- converted by Koordinates to Shapefile on 21 Dec 2018
+
+====================
+No license specified
+====================
+
+No license was specified for this layer. This could mean default rights under copyright law for your legal jurisdiction may apply. Please check with Koordinates if you're unsure of your right to access and use this layer.
+
