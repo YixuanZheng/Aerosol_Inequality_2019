@@ -58,8 +58,8 @@ T_grid_base = i_base['t2m_mean'] - 273.15 #K to C
 
 i_sim = xr.open_dataset(if_sim)
 
-T_grid_wa = i_sim[par + '_' +scenarios[0]] #With-Aerosol
-T_grid_na = i_sim[par + '_' +scenarios[1]] #No-Aerosol
+T_grid_wa = i_sim[par + '_' +scenarios[0] + '_ensemble'] #With-Aerosol
+T_grid_na = i_sim[par + '_' +scenarios[1] + '_ensemble'] #No-Aerosol
 
 T_grid_na = T_grid_base - T_grid_wa + T_grid_na
 T_grid_wa = T_grid_base.copy()
