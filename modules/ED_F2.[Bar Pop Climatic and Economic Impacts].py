@@ -21,7 +21,7 @@ matplotlib.rcParams['font.sans-serif'] = 'Helvetica'
 
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS2.Bar_Pop_Climatic_and_Economic_Impacts.png'
+of_plot = odir_plot + 'ED_F2.Bar_Pop_Climatic_and_Economic_Impacts.png'
 
 year = _env.year
 p_scen = 'No-Aerosol' #aerosol removal scenario

@@ -26,7 +26,7 @@ matplotlib.rcParams['font.sans-serif'] = 'Helvetica'
 
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS3.Line_Zonalmean_Temp.png'
+of_plot = odir_plot + 'ED_F3.Line_Zonalmean_Temp.png'
 
 year = _env.year
 p_scen = 'No-Aerosol' #aerosol removal scenario

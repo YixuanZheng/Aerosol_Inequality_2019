@@ -31,7 +31,7 @@ if_gdp = _env.odir_root + '/summary_' + ds + '/country_specific_statistics_GDP_'
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS11.Scatter_Changes_in_Temp_and_GDP_Sulfate.png'
+of_plot = odir_plot + 'SOM_F1.Scatter_Changes_in_Temp_and_GDP_Sulfate.png'
 
 itbl_temp = pd.read_csv(if_temp,index_col = 0)
 itbl_gdp = pd.read_excel(if_gdp,'country-lag0')

@@ -38,7 +38,7 @@ if_temp_pi = _env.odir_root + '/' + parameters_info[par]['dir']+ '/Global_Mean_T
 odir_plot = _env.odir_root + '/plot/' 
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS1.Trend_Temp_forcing_scenarios.png'
+of_plot = odir_plot + 'ED_F1.Trend_Temp_forcing_scenarios.png'
 
 
 

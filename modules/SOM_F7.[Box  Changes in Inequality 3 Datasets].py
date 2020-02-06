@@ -32,7 +32,7 @@ idir_temp = _env.odir_root + '/sim_temperature/'
 
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS17.Box_Changes_in_Inequality_3Datasets.png'
+of_plot = odir_plot + 'SOM_F7.Box_Changes_in_Inequality_3Datasets.png'
 
 itbl_gdp_baseline = pd.read_csv(_env.odir_root  + 'basic_stats' + '/Country_Basic_Stats.csv')
 itbl_gdp_baseline.sort_values([sgdp_year + '_gdpcap'],inplace=True)

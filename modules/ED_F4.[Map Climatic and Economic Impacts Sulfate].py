@@ -56,7 +56,7 @@ odir_plot = _env.odir_root + '/plot/'
 
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS4.Map_Climatic_Economic_Impacts_Sulfate.png'
+of_plot = odir_plot + 'ED_F4.Map_Climatic_Economic_Impacts_Sulfate.png'
 
 p_scen = 'No-Sulfate' #aerosol removal scenario
 ds = 'ERA-Interim'

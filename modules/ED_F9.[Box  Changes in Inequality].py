@@ -35,7 +35,7 @@ odir_summary = _env.odir_root + '/summary_'+ds+'/'
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_summary)
 
-of_plot = odir_plot + 'FS9.Box_Changes_in_Inequality.png'
+of_plot = odir_plot + 'ED_F9.Box_Changes_in_Inequality.png'
 
 itbl_gdp_baseline = pd.read_csv(_env.odir_root  + 'basic_stats' + '/Country_Basic_Stats.csv')
 itbl_gdp_baseline.sort_values([sgdp_year + '_gdpcap'],inplace=True)

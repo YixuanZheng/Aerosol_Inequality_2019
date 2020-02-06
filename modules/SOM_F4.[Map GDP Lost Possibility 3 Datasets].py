@@ -40,7 +40,7 @@ p_scen = 'No-Aerosol'
 if_ctryshp = (_env.idir_root + '/shape/country/country1.shp')
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS14.Map_Ctry_GDP_Lost_Possibility_3Datasets.png'
+of_plot = odir_plot + 'SOM_F4.Map_Ctry_GDP_Lost_Possibility_3Datasets.png'
 
 fig = plt.figure(figsize=(21,15))
     

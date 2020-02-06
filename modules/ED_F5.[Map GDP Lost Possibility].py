@@ -39,7 +39,7 @@ ds = 'ERA-Interim'
 if_ctryshp = (_env.idir_root + '/shape/country/country1.shp')
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS5.Map_Ctry_GDP_Lost_Possibility.png'
+of_plot = odir_plot + 'ED_F5.Map_Ctry_GDP_Lost_Possibility.png'
 
 fig = plt.figure(figsize=(21,10))
     

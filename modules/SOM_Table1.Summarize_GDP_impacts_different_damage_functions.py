@@ -31,7 +31,7 @@ speciations = {'Burke et al.':['country-lag0','country-lag1','country-lag5','yea
 odir_tbl = _env.odir_root + '/table/'
 _env.mkdirs(odir_tbl)
 
-of_tbl = odir_tbl + 'TableS1.xls'
+of_tbl = odir_tbl + 'SOM_Table1.xls'
 writer = pd.ExcelWriter(of_tbl)
 
 #===================applied functions====================

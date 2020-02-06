@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS13.Scatter_compare_Temp_3datasets.png'
+of_plot = odir_plot + 'SOM_F3.Scatter_compare_Temp_3datasets.png'
 
 if_temp = _env.odir_root + 'sim_temperature/Climatological_Temp_Ctry_3ds.csv'
 itbl_temp = pd.read_csv(if_temp,index_col=0)

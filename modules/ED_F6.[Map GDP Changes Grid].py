@@ -36,7 +36,7 @@ ds = 'ERA-Interim'
 
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
-of_plot = odir_plot + 'FS6.Map_GDP_Changes_Grid.png'
+of_plot = odir_plot + 'ED_F6.Map_GDP_Changes_Grid.png'
 
 if_mask = _env.idir_root + '/regioncode/CESM_19x26_Land-Ocean_Mask.nc'
 iarr_land = Dataset(if_mask)['landmask'][:]

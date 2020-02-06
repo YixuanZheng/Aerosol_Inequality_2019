@@ -31,7 +31,7 @@ if_ctrylist = _env.idir_root + '/regioncode/Country_List.xls'
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS16.Bar_GDP_Impacts_3Datasets.png'
+of_plot = odir_plot + 'SOM_F6.Bar_GDP_Impacts_3Datasets.png'
 
 colors = sns.color_palette('RdYlBu',5).as_hex()
 colors[2] = '#A9A9A9'

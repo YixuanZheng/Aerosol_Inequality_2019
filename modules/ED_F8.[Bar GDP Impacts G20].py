@@ -28,7 +28,7 @@ if_ctrylist = _env.idir_root + '/regioncode/Country_List.xls'
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS8.Bar_GDP_Impacts_G20.png'
+of_plot = odir_plot + 'ED_F8.Bar_GDP_Impacts_G20.png'
 
 ctry_g20 = ['United States','Australia','Canada','Saudi Arabia','India','Russia','South Africa','Turkey','Argentina','Brazil','Mexico','France','Germany','Italy','United Kingdom','China','Indonesia','Japan','South Korea']
 

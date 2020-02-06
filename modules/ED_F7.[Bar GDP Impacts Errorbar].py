@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 '''
-This code generates Fig. S12
+This code generates Fig. S7
 
-Country-level percentage changes in GDP associated with anthropogenic SULFATE-induced cooling
+Country-level percentage changes in GDP associated with anthropogenic aerosol-induced cooling
 
 by Yixuan Zheng (yxzheng@carnegiescience.edu)
 '''   
@@ -22,7 +22,7 @@ gdp_year = _env.year
 sgdp_year = str(gdp_year)
 
 
-p_scen = 'No-Sulfate' #aerosol removal scenario
+p_scen = 'No-Aerosol' #aerosol removal scenario
 ds = 'ERA-Interim'
 
 if_temp = _env.odir_root + '/summary_' + ds + '/country_specific_statistics_Temp_' + ds + '_' + p_scen + '.csv'
@@ -33,7 +33,7 @@ if_ctrylist = _env.idir_root + '/regioncode/Country_List.xls'
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS12.Bar_GDP_Impacts_Errorbar_Sulfate.png'
+of_plot = odir_plot + 'ED_F7.Bar_GDP_Impacts_Errorbar.png'
 
 itbl_gdp = pd.read_excel(if_gdp,'country-lag0')
 itbl_ctrylist = pd.read_excel(if_ctrylist)
@@ -93,7 +93,7 @@ plt.ylim([-4,4.5])
 
 plt.xticks(size=16) 
 plt.yticks(size=16)
-plt.ylabel('GDP changes due to sulfate-induced cooling (%)',size=16)
+plt.ylabel('GDP changes due to aerosol-induced cooling (%)',size=16)
 plt.xlabel('Cumulative share of global GDP (%)',size=16)
 
 #plot colorbar

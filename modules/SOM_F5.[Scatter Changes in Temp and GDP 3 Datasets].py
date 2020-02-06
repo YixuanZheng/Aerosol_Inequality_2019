@@ -27,7 +27,7 @@ p_scen = 'No-Aerosol' #aerosol removal scenario
 odir_plot = _env.odir_root + '/plot/'
 _env.mkdirs(odir_plot)
 
-of_plot = odir_plot + 'FS15.Scatter_Changes_in_Temp_and_GDP.png'
+of_plot = odir_plot + 'SOM_F5.Scatter_Changes_in_Temp_and_GDP.png'
 
 datasets = ['CESM','Reanalysis-1','ERA-interim']
 
