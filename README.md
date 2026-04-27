@@ -1,6 +1,6 @@
 ## Climate effects of aerosols reduce economic inequality
 
-Replication materials for *Zheng, Davis, Persad & Caldeira (under review)*
+Replication materials for *Zheng, Y., Davis, S.J., Persad, G.G. et al. Climate effects of aerosols reduce economic inequality. Nature Climate Change 10, 220–224 (2020). https://doi.org/10.1038/s41558-020-0699-y*
 
 The materials in this repository can be used to reproduce the figures and tables in the main text and supplementary information of the paper. 
 
