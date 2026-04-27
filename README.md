@@ -4,7 +4,7 @@ Replication materials for *Zheng, Y., Davis, S.J., Persad, G.G. et al. Climate e
 
 The materials in this repository can be used to reproduce the figures and tables in the main text and supplementary information of the paper. 
 
-If you have any questions or suggestions, please contact Yixuan Zheng (yxzheng@carnegiescience.edu).
+If you have any questions or suggestions, please contact Dr. Yixuan Zheng (zhengyx@caep.org.cn).
 
 
 ## Scenarios
